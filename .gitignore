@@ -1,0 +1,15 @@
+# Environment — never commit real credentials
+.env
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDE
+.vscode/
+.idea/
