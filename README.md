@@ -8,7 +8,7 @@ A containerized hosting center built with Docker Compose.
 |----------|-------------------|-------|
 | Database | PostgreSQL 15     | 5432  |
 | Web server | Apache httpd    | 80    |
-| Backend  | Node.js / Express | 5000  |
+| Backend  | Node.js / Express | 8765  |
 | Frontend | React + Vite      | 5173  |
 | FTP      | Pure-FTPd         | 21    |
 
@@ -64,7 +64,7 @@ First run takes a few minutes to pull images and install dependencies.
 |-----|----------------|
 | `http://localhost` | Apache default page |
 | `http://www.mojefirma.cz` | Moje Firma test site |
-| `http://localhost:5000` | Backend health check |
+| `http://localhost:8765` | Backend health check |
 | `http://localhost:5173` | React frontend |
 
 FTP connection: host `localhost`, port `21`, user/pass from your `.env`.
